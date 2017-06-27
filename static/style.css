@@ -1,0 +1,87 @@
+		.wrapper{
+			width: auto;
+			margin: 0 auto;
+		}
+		.wrapper .header{
+			width: 100%;
+			height: 40px;
+			background: orange;
+			text-align: center;
+
+		}
+		.wrapper .body{
+			width: 100%;
+			height: 100%;
+			background: #cfc;
+			font-size: 0;
+		}
+		.wrapper .body .item .price{
+			font-weight: bold;
+			margin-top: 5px;
+			display: block;
+			font-size: 14px;
+			color: #000;
+		}
+		.wrapper .body .item .buy{
+			margin-top: 5px;
+			display: block;
+			font-size: 14px;
+			color: #000;
+		}
+		.wrapper .body .item .full{
+			margin: 0 auto;
+			max-width: 600px;
+			height: auto;
+			display: block;
+		}
+		.wrapper .body ul{
+			font-size: 15px;
+		}
+		.wrapper .body .left{
+			width: 300px;
+			min-height: 600px;
+			background: yellow;
+			display: inline-block;
+			vertical-align: top;
+		}
+		
+		.wrapper .body .main{
+			width: 660px;
+			margin-left: 40px;
+			min-height: 600px;
+			background: gray;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.wrapper .body .main .item{
+			display: inline-block;
+			vertical-align: top;
+			margin: 10px;
+			background: red;
+			width: 80px;
+			min-height: 100px;
+			text-decoration: none;
+		}
+		.wrapper .body .main .item img{
+			display: block;
+			width: 80px;
+			height: auto;
+
+		}
+		.wrapper .body .main .item span{
+
+			color: #fff;
+		}
+		.wrapper .body .main .item .title{
+			font-size: 14px;
+			display: block;
+			margin-top: 5px;
+		}
+		.wrapper .body .main .item .price{
+			font-size: 14px;
+			display: block;
+			margin-top: 5px;
+		}
+
+
+
